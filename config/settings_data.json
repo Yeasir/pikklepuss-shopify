@@ -1,0 +1,1322 @@
+{
+  "current": {
+    "color_text": "#1a2428",
+    "color_body_text": "#1a2428",
+    "color_button": "#34b233",
+    "stiky_header_enable": true,
+    "type_header_base_size": 30,
+    "type_base_size": 26,
+    "share_twitter": false,
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
+    "favicon": "shopify:\/\/shop_images\/logo-m.png",
+    "transparrent_header_enable": true,
+    "bg_header_enable_only_home": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/white-logo.png",
+          "sticky_logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 210,
+          "main_linklist": "main-menu",
+          "main_linklist_right": "right-side-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#2fab39",
+          "color_text": "#ffffff"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "866b4584-dd61-4c8f-a7ea-9a5b20460276": {
+            "type": "Image",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/logo_RGB_2.png",
+              "logo_max_width": 230,
+              "text2": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
+          },
+          "a13647ea-9772-4ebf-9fb3-c234a78ba659": {
+            "type": "text",
+            "settings": {
+              "title": "Contact Us",
+              "text": "<p>info@pikklepuss.com<br\/>650.260.3214<br\/><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "866b4584-dd61-4c8f-a7ea-9a5b20460276",
+          "footer-0",
+          "a13647ea-9772-4ebf-9fb3-c234a78ba659"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "footer_bg": "shopify:\/\/shop_images\/footer-bg.jpg",
+          "color_footer_bg": "#36b34a",
+          "color_footer_bottom_bg": "#138044",
+          "color_footer_text": "#f6f6f6",
+          "color_footer_text_hover": "#26547c",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "1624510674df01868e": {
+        "type": "featured-blog-ym",
+        "settings": {
+          "title": "our journal",
+          "header_descripiton": "<p>All about our journey as shrub ambassadors to give this delectable beverage the props it deserves to become your sipping beverage of choice!<\/p>",
+          "blog": "journal",
+          "post_limit": 3,
+          "slider_enable": true,
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "show_view_all": false
+        }
+      },
+      "1624522075c8fd95c3": {
+        "type": "hero-ym",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/slider-1.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large",
+          "title": "Pikklepuss",
+          "subtitle": "<p>Shrub-based Premium Craft Mixers<\/p>",
+          "text": "<p>Welcome to a world of craft cocktails that are<br\/>a little bit sweet, and a little bit tart and 100% sassy.<br\/>Pikklepuss is the fruit that bites back!<br\/><br\/>Pucker up, buttercup!<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/pages\/shop"
+        }
+      },
+      "1624526853ddc1f0fa": {
+        "type": "feature-row-ym",
+        "settings": {
+          "padding_top": 210,
+          "padding_bottom": 500,
+          "margin_top": -145,
+          "color_bg": "#ffffff",
+          "bg_image": "shopify:\/\/shop_images\/about-bg.png",
+          "layout": "right",
+          "title": "It all started with a shrub",
+          "text": "<p>A shrub is a beverage that transcends history, revived for your modern day cocktail experience. With just the right amount of tinkering, we have crafted a mixer we hope will become your new favorite sipping drink.<\/p>",
+          "button_label": "More on shrubs",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "162453346182b2ee1e": {
+        "type": "rich-text-ym",
+        "settings": {
+          "full_width": true,
+          "section_title": "How it Works",
+          "text": "<p>If this crazy pandemic has taught us anything, it’s the value of the craft cocktail. We have mad respect for the art of mixology, but sometimes you want to spend less time fussing with your drink, and more time socializing. No instruction manual, no laundry list of ingredients, just you and hopefully a friend or multitudes to imbibe with.<br\/><br\/>With that in mind, we have created experiences to elevate your drink, and provide just enough knowledge to make you dangerous!<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "hero-landing-ym": {
+        "type": "hero-landing-ym",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/slider-1.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large",
+          "title": "Pikklepuss",
+          "subtitle": "<p>Shrub based Premium Craft Mixers<\/p>",
+          "subcontent": "<p>We’re busy concocting the most delicious beverages, and we want you to be the first to know about it!<\/p>",
+          "text": "<p>Welcome to a world of craft cocktails that are a little bit sweet, and a little bit tart and 100% sassy. Pucker up, buttercup!<\/p>",
+          "button_label": "Shop",
+          "button_link": ""
+        }
+      },
+      "newsletter-ym": {
+        "type": "newsletter-ym",
+        "settings": {
+          "section_title": "We craft email too",
+          "subheading": "<p>Become part of our community where we share updates, promotions, recipes and lots of other good stuff!<br\/><\/p>",
+          "bg_image": "shopify:\/\/shop_images\/newslatter-bg_173c502e-597f-42b0-9135-52f0cafb60c4.png",
+          "color_bg": "rgba(0,0,0,0)",
+          "color_text": "#ffffff"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": false,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "heading": "You may also like",
+          "show_vendor": true
+        }
+      },
+      "16246087505b0eb6d4": {
+        "type": "feature-columns-ym",
+        "blocks": {
+          "16246087505b0eb6d4-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/experience.png",
+              "title": "Experience",
+              "text": "<p>A curated cocktail kit<\/p>",
+              "button_label": "Select",
+              "button_link": "https:\/\/pikklepuss.myshopify.com\/pages\/shop#shopify-section-collection-shop"
+            }
+          },
+          "16246087505b0eb6d4-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/taste.png",
+              "title": "TASTE",
+              "text": "<p>Just the shrubs<\/p>",
+              "button_label": "Select",
+              "button_link": "https:\/\/pikklepuss.myshopify.com\/pages\/shop#shopify-section-featured-product-shop"
+            }
+          },
+          "16246087505b0eb6d4-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/gift.png",
+              "title": "GIFT",
+              "text": "<p>A subscription or<br\/>individual box<\/p>",
+              "button_label": "Select",
+              "button_link": "https:\/\/pikklepuss.myshopify.com\/pages\/shop#shopify-section-feature-row-shop"
+            }
+          },
+          "4195ae3e-328c-4ed9-b6f9-d1ecfe361adb": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/host.png",
+              "title": "Host",
+              "text": "<p>A virtual corporate<br\/>event<\/p>",
+              "button_label": "Select",
+              "button_link": "https:\/\/pikklepuss.myshopify.com\/pages\/shop#shopify-section-feature-row-host-shop"
+            }
+          }
+        },
+        "block_order": [
+          "16246087505b0eb6d4-0",
+          "16246087505b0eb6d4-1",
+          "16246087505b0eb6d4-2",
+          "4195ae3e-328c-4ed9-b6f9-d1ecfe361adb"
+        ],
+        "settings": {
+          "title": "EXPLORE ways to enjoy and share pikklepuss",
+          "align_text": "center",
+          "padding_top": 390,
+          "padding_bottom": 250,
+          "color_bg": "#fff6df"
+        }
+      },
+      "1624621885843d7ef5": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 22,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "page-title-cart": {
+        "type": "page-title-cart",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/slider-1.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "small",
+          "text_size": "medium"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "page-title-shop": {
+        "type": "page-title-shop",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/shop-bg.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large"
+        }
+      },
+      "page-title-about": {
+        "type": "page-title-about",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/about-banner.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large"
+        }
+      },
+      "page-title-journal": {
+        "type": "page-title-journal",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner-journer.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large"
+        }
+      },
+      "page-title": {
+        "type": "page-title",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/shop-bg.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large"
+        }
+      },
+      "rich-text-shop-ym": {
+        "type": "rich-text-shop-ym",
+        "settings": {
+          "full_width": true,
+          "section_title": "Get ready to get your sippin’ & snackin’ on!",
+          "text": "<p>At pikklepuss, we’re all about flavor. We select the freshest, in season fruit to preserve into our shrubs.From there, we blend in cordials, tonics, bitters and other natural flavors to add depth and complexity.<br\/><br\/>Try our mixers as part of a cocktail kit experience, or as a trifecta of taste. Because we are also about choices. And both happen to be great!<br\/><\/p>",
+          "text_size": "medium"
+        }
+      },
+      "feature-columns-shop-ym": {
+        "type": "feature-columns-shop-ym",
+        "blocks": {
+          "c6e91ac0-55a4-4288-83ed-0ba305e15eb2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/experience.png",
+              "title": "Experience",
+              "text": "<p>A curated cocktail kit<\/p>",
+              "button_label": "Select",
+              "button_link": "#shopify-section-collection-shop"
+            }
+          },
+          "9c0c8562-f7f4-42ce-893c-396bee541a6a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/taste.png",
+              "title": "TASTE",
+              "text": "<p>Just the shrubs<br\/><\/p>",
+              "button_label": "Select",
+              "button_link": "#ProductSection-featured-product-shop"
+            }
+          },
+          "18b690bf-9bed-4751-b430-798dfefe2ad7": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/gift.png",
+              "title": "GIFT",
+              "text": "<p>A subscription or<br\/>individual box<br\/><\/p>",
+              "button_label": "Select",
+              "button_link": "#shopify-section-feature-row-shop"
+            }
+          },
+          "ea663f2d-9c02-4a5b-a5dc-8ab330b4d841": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/host.png",
+              "title": "Host",
+              "text": "<p>A virtual corporate<br\/>event<br\/><\/p>",
+              "button_label": "Select",
+              "button_link": "#shopify-section-feature-row-host-shop"
+            }
+          }
+        },
+        "block_order": [
+          "c6e91ac0-55a4-4288-83ed-0ba305e15eb2",
+          "9c0c8562-f7f4-42ce-893c-396bee541a6a",
+          "18b690bf-9bed-4751-b430-798dfefe2ad7",
+          "ea663f2d-9c02-4a5b-a5dc-8ab330b4d841"
+        ],
+        "settings": {
+          "title": "EXPLORE",
+          "align_text": "center",
+          "padding_top": 375,
+          "padding_bottom": 135,
+          "color_bg": "#fff6df"
+        }
+      },
+      "collection-shop": {
+        "type": "collection-shop",
+        "settings": {
+          "title": "EXPERIENCE",
+          "collection": "experience",
+          "rows": 5,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "featured-product-shop": {
+        "type": "featured-product-shop",
+        "settings": {
+          "title": "Taste",
+          "featured_product": "just-the-shrubs",
+          "show_quantity_selector": false,
+          "show_price": false,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": false,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "feature-row-shop": {
+        "type": "feature-row-shop",
+        "settings": {
+          "padding_top": 185,
+          "padding_bottom": 195,
+          "margin_top": 0,
+          "color_bg": "#fff6df",
+          "bg_image": "shopify:\/\/shop_images\/gift-bg.png",
+          "layout": "right",
+          "title": "Gift",
+          "sub_title": "WELL AREN’T YOU GENEROUS!",
+          "text": "<p>We get that you want to share a mutual love for sippin’ and shrubs!<\/p>",
+          "button_label2": "EXPERIENCE",
+          "button_link2": "https:\/\/pikklepuss.myshopify.com\/pages\/shop#shopify-section-collection-shop",
+          "button_label": "Taste",
+          "button_link": "https:\/\/pikklepuss.myshopify.com\/pages\/shop#shopify-section-featured-product-shop"
+        }
+      },
+      "feature-row-host-shop": {
+        "type": "feature-row-host-shop",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/host-image.png",
+          "layout": "right",
+          "title": "Host",
+          "sub_title": "Treat your team to a virtual happy hour",
+          "text": "<p>Your video conference just got tastier! <br\/><br\/>As part of our commitment to making work life more fun, our cocktail experiences are available for corporate and virtual events.  Pikklepuss is perfect for equal opportunity sipping - delicious in a mixed drink or as a mocktail.  Included is everything you need for the perfect pour (except the alcohol), and we can join your call to provide more color on shrubs, pikklepuss, mixology secrets and the great bartending tools you now have at your disposal.<br\/><br\/>Boxes can be customized to meet your needs.<br\/><\/p>",
+          "button_label": "Contact",
+          "button_link": "#"
+        }
+      },
+      "shop-bottom-shape": {
+        "type": "shop-bottom-shape",
+        "settings": {
+          "height": 490,
+          "bg_image": "shopify:\/\/shop_images\/shop-bottom-shape.png"
+        }
+      },
+      "feature-row-about-ym": {
+        "type": "feature-row-about-ym",
+        "settings": {
+          "color_bg": "#f8f7f7",
+          "bg_image": "shopify:\/\/shop_images\/about-feature-bg.jpg",
+          "layout": "left",
+          "title": "What is pikklepuss?",
+          "text": "<p>Quite literally, picklepuss means sour  face. “Don’t be such a picklepuss”,  chastened mom if we woke up on the wrong side of the bed. Naturally a word that elicits a pucker and a smile leaped to mind when naming a beverage that delights the tastebuds with both sweet and tart sensations.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "our-story": {
+        "type": "our-story",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/story.png",
+          "layout": "right",
+          "title": "Our Story",
+          "text": "<p>Even though I didn’t know it, my founder story started  in my childhood. Growing up in rural area as a  descendant of pioneers, things were a little different. Ours was a true farm to table experience, from  maintaining an acre-sized garden to creating all meals in a scratch kitchen. Early childhood memories include home-made root beer brewing in my grandma’s root cellar and putting up row upon row of preserves, jams and pickles alongside my mom and sisters. To this day, the musty smell of damp earth brings back those fond memories. <br\/><br\/>From these beginnings, a desire to nourish, entertain and host was born. I love to gather people together over a meal, celebration, or any excuse to socialize. I wear my conquests in the kitchen like a badge of honor, and high praise for cocktails is an extension of that.<br\/><br\/>I spent much of my adult years in a big city corporate environment, leading sales initiatives in the luxury  hospitality space. I learned a lot about service, product value, and most importantly relationships over these years. <\/p>",
+          "text_right": "<p>Fast forward to the great pandemic of 2020, and rekindling the forgotten craft of preservation. An  introduction to shrubs early in our shelter-in-place order became love at first sip. Since then I have been concocting myriad flavors and blends in my home  kitchen turned science lab. It felt like coming home and returning to my roots. <br\/><br\/>My desire to share this discovery proved challenging in a socially distant landscape. Never deterred, I took my craft shrub kit to go, setting up tastings and mixing cocktails in the back yards of surrounding friends. But why stop there? Now, my mission is to share pikklepuss and my love of shrubs across the country and around the globe. <br\/><br\/>Enjoy!<\/p>",
+          "signature": "Juli"
+        }
+      },
+      "feature-row-about-story": {
+        "type": "feature-row-about-story",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/about-image.png",
+          "layout": "right",
+          "title": "What is a Shrub?",
+          "text": "<p>The enigma of beverages, it’s part hip craft cocktail mixer and granny’s preserves rolled up in one.  Creating shrubs is simply macerating sugar with fruit, then blending with vinegar to aid the preservation  process. The resulting concentrate is traditionally mixed with water to create a refreshing drink that is simultaneously tart and sweet.<br\/><br\/>Great shrubs, and the basis for pikklepuss mixers, find that delicate balance of acidic bite and fruity brightness. From there, we build complexity with mid and top flavor notes in the form of tonics, cordials, tinctures and bitters to discover that perfect flavor combination!<\/p>",
+          "button_label": "A shrub is the fruit that bites back!",
+          "button_link": "shopify:\/\/products\/just-the-shrubs"
+        }
+      },
+      "rich-text-history": {
+        "type": "rich-text-history",
+        "settings": {
+          "full_width": true,
+          "title": "More on Shrubs",
+          "section_title": "History",
+          "text": "<p>Shrubs have a rich history a rich history throughout the ages, and can be traced back to babylonian times as an  additive to make drinking water safe. The word “shrub” is derived from the Arabic word sharāb, to drink. (syrup, <br\/>sherbet, shrub). Beyond the Middle East, it appeared in Medieval Europe as a medicinal elixir, and was revived in 17th and 18th century England to mask the flavor of smuggled spirits and prevent scurvy. <br\/><br\/>Shrubs became popular in America during the Colonial Era as a way to preserve fruit and was also the basis for  alcoholic punches enjoyed by high society. Recently, it has enjoyed renewed status with a role in the craft cocktail movement. <br\/><br\/>Vinegar based drinks appear in many different ethnicities - Korean, Indian, Ukrainian, Armenian – which we have  discovered in conversations with friends about the product. We love that this beverage spans across time, culture and (we hope) a shared love by all.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "feature-row-mission": {
+        "type": "feature-row-mission",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/mission.png",
+          "layout": "left",
+          "title": "Our Mission",
+          "text": "<p>To create a craft cocktail experience with friends that requires less mixology and more socializing. Pikklepuss is a social sipping drink that can be enjoyed either with your favorite spirit or as a stand alone beverage served with sparkling water over ice.<br\/><br\/>We aspire to be the go to premium cocktail mixer that delivers a fruit forward, complex taste with a sweet & tart sensation. Our focus is farm to glass, relying on locally sourced ingredients at the height of their seasonality to ensure bright flavors.<br\/><br\/>We believe in connecting people for great conversation over cocktails. Pikklepuss is part of that experience anywhere the mood takes you, no bartender required. <br\/><strong><br\/>So kick back, relax and spend more time with your people<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "values": {
+        "type": "values",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/logo-m.png",
+          "title": "Values",
+          "sub_title": "Integral to the long term values and success of pikklepuss:",
+          "title_1": "Flavor",
+          "text": "<p>It has to taste spectacular! <br\/>Delicious flavors with subtle <br\/>complexities of base, mid and top notes.<\/p>",
+          "title_2": "Farm to Glass",
+          "text_2": "<p>Locally sourced, organic, non GMO ingredients.<\/p>",
+          "title_middle": "Social Connection and Community",
+          "text_middle": "<p>We want o hear from our customers, but better yet, we want to spend time with them. Over cocktails.<\/p>",
+          "title_r1": "Have Fun!",
+          "text_r1": "<p>While building a new product category and international brand. <\/p>",
+          "title_r2": "Encourage Curiosity",
+          "text_r2": "<p>Culinary, cultural, current – <br\/>what is happening in the world around us and adapting our product and company.<\/p>"
+        }
+      },
+      "faq-blocks": {
+        "type": "faq-blocks",
+        "blocks": {
+          "f36160f7-94e4-4e50-8263-9c40129e4626": {
+            "type": "FAQ",
+            "settings": {
+              "faq_title": "What if I don’t need all of the tools included I the box?",
+              "faq_content": "<p>We know, sometimes you have these tools. Because you’re a foodie, a maker, a mover and a shaker. A bonafide food mechanic. And for that we applaud you. But you know what? Fun fact - pikklepuss tools also make a great gift. For that special someone in your life who could use a little love. Or a citrus squeezer.<\/p>"
+            }
+          },
+          "3b9ef5b2-f02b-4265-bbf0-f4f47d9a4c9b": {
+            "type": "FAQ",
+            "settings": {
+              "faq_title": "Why no alcohol?",
+              "faq_content": "<p>We know, sometimes you have these tools. Because you’re a foodie, a maker, a mover and a shaker. A bonafide food mechanic<\/p>"
+            }
+          },
+          "28f553ad-db08-4e44-b6a4-963d11b22a1b": {
+            "type": "FAQ",
+            "settings": {
+              "faq_title": "How can I buy more mixer?",
+              "faq_content": "<p>We know, sometimes you have these tools. Because you’re a foodie, a maker, a mover and a shaker. A bonafide food mechanic<\/p>"
+            }
+          },
+          "1ce72566-c4d9-45a9-b23e-88026ec8b2dc": {
+            "type": "FAQ",
+            "settings": {
+              "faq_title": "How can I manage my subscription?",
+              "faq_content": "<p>We know, sometimes you have these tools. Because you’re a foodie, a maker, a mover and a shaker. A bonafide food mechanic<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f36160f7-94e4-4e50-8263-9c40129e4626",
+          "3b9ef5b2-f02b-4265-bbf0-f4f47d9a4c9b",
+          "28f553ad-db08-4e44-b6a4-963d11b22a1b",
+          "1ce72566-c4d9-45a9-b23e-88026ec8b2dc"
+        ],
+        "settings": {
+          "title": "FAQ"
+        }
+      },
+      "footer-landing": {
+        "type": "footer-landing",
+        "blocks": {
+          "footer-landing-2": {
+            "type": "Image",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/footer-logo_a1b8ebd0-5b50-45b7-b526-16b517684dd8.png",
+              "logo_max_width": 235,
+              "text2": "<p>info@pikklepuss.com<br\/>650.260.3214<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-landing-2"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "footer_bg": "shopify:\/\/shop_images\/footer-bg.jpg",
+          "color_footer_bg": "#36b34a",
+          "color_footer_bottom_bg": "#138044",
+          "color_footer_text": "#ffffff",
+          "color_footer_text_hover": "#26547c",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Blog posts",
+          "blog": "journal",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_view_all": false
+        }
+      },
+      "featured-blog-discover": {
+        "type": "featured-blog-discover",
+        "settings": {
+          "title": "DISCOVER",
+          "header_descripiton": "<p>Expanding our mind and palette as we document our shrub obsession<\/p>",
+          "blog": "discover",
+          "post_limit": 120,
+          "blog_show_author": false,
+          "blog_show_date": true
+        }
+      },
+      "featured-blog-recipes": {
+        "type": "featured-blog-recipes",
+        "settings": {
+          "title": "RECIPES",
+          "header_descripiton": "<p>An exploration of shrub-based beverages and our favorite food pairings<\/p>",
+          "blog": "recipes",
+          "post_limit": 120,
+          "blog_show_author": false,
+          "blog_show_date": true
+        }
+      },
+      "featured-blog-news": {
+        "type": "featured-blog-news",
+        "settings": {
+          "title": "NEWS",
+          "header_descripiton": "<p>Let’s give them something to talk about…<\/p>",
+          "blog": "news",
+          "post_limit": 6,
+          "blog_show_author": false,
+          "blog_show_date": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "page-title-blog": {
+        "type": "page-title-blog",
+        "settings": {
+          "title": "Journal",
+          "image": "shopify:\/\/shop_images\/banner-journer.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large"
+        }
+      },
+      "bread-crumbs-blogs": {
+        "type": "bread-crumbs-blogs",
+        "blocks": {
+          "62ac304e-c674-4d61-b161-40743e362582": {
+            "type": "select",
+            "settings": {
+              "linktext": "discover",
+              "link": "#shopify-section-featured-blog-discover"
+            }
+          },
+          "0f37f36b-fbdc-479e-aa8e-2b495fd80430": {
+            "type": "select",
+            "settings": {
+              "linktext": "Recipes",
+              "link": "#shopify-section-featured-blog-recipes"
+            }
+          },
+          "d0e587ff-7da6-46c1-a7be-93a5be6b4a20": {
+            "type": "select",
+            "settings": {
+              "linktext": "News",
+              "link": "#shopify-section-featured-blog-news"
+            }
+          }
+        },
+        "block_order": [
+          "62ac304e-c674-4d61-b161-40743e362582",
+          "0f37f36b-fbdc-479e-aa8e-2b495fd80430",
+          "d0e587ff-7da6-46c1-a7be-93a5be6b4a20"
+        ],
+        "settings": {}
+      },
+      "journal-bottom-shape": {
+        "type": "journal-bottom-shape",
+        "settings": {
+          "height": 520,
+          "bg_image": "shopify:\/\/shop_images\/jounal-bottom-shape.png"
+        }
+      },
+      "newsletter-blog": {
+        "type": "newsletter-blog",
+        "settings": {
+          "title": "Love sippin', snackin' & shrubs? Join us for updates!"
+        }
+      },
+      "blog-bottom-shape": {
+        "type": "blog-bottom-shape",
+        "settings": {
+          "height": 525,
+          "bg_image": "shopify:\/\/shop_images\/blog-bottom-shape.png"
+        }
+      },
+      "page-title-blog-news": {
+        "type": "page-title-blog-news",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/journal-banner-2.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large"
+        }
+      },
+      "page-title-blog-recipes": {
+        "type": "page-title-blog-recipes",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/journal-banner-2.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large"
+        }
+      },
+      "page-title-blog-discover": {
+        "type": "page-title-blog-discover",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner-journer.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large"
+        }
+      },
+      "page-title-product": {
+        "type": "page-title-product",
+        "settings": {
+          "title": "Shop",
+          "image": "shopify:\/\/shop_images\/shop-bg.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large"
+        }
+      },
+      "product-bottom-shape": {
+        "type": "product-bottom-shape",
+        "settings": {
+          "height": 530,
+          "bg_image": "shopify:\/\/shop_images\/blog-bottom-shape.png"
+        }
+      },
+      "page-bottom-shape": {
+        "type": "page-bottom-shape",
+        "settings": {
+          "height": 535,
+          "bg_image": "shopify:\/\/shop_images\/blog-bottom-shape.png"
+        }
+      },
+      "page-title-common": {
+        "type": "page-title-common",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/cart-banner.png",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "small",
+          "text_size": "medium"
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo-m.png",
+          "logo_max_width": 240,
+          "header": "Coming Soon"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "newsletter_enable": true,
+          "newsletter_form_heading": "Be the first to know when we launch.",
+          "newsletter_form_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Notify me"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "show_share_buttons": true,
+          "social_message": "Spread the word"
+        }
+      }
+    },
+    "content_for_index": [
+      "1624522075c8fd95c3",
+      "1624526853ddc1f0fa",
+      "162453346182b2ee1e",
+      "16246087505b0eb6d4",
+      "1624621885843d7ef5",
+      "1624510674df01868e"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

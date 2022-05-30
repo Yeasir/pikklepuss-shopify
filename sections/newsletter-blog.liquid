@@ -1,0 +1,97 @@
+<style>
+
+.newsletter-section-custom{
+    color: {{ section.settings.color_text }};
+    background-color: {{ section.settings.color_bg }};
+    background-image: url({{ section.settings.bg_image | image_url }});
+    background-repeat: no-repeat;
+      background-position:center;
+      background-size:cover;
+  }
+
+  .newsletter-section-custom p, .newsletter-section-custom .rte{
+    color: {{ section.settings.color_text }};
+  }
+
+  
+</style>
+
+<div class="newsletter-section newsletter-blog" >
+  <div class="page-width">
+    <div class="section-header text-center">
+      {% if section.settings.title != blank %}
+        <h3 class="h3">{{ section.settings.title }}</h3>
+      {% endif %}
+
+    </div>
+    <div class="contact-form form-single-field ">
+      <div class="klaviyo-form-WFwevv"></div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": {
+    "cs": "Novinky",
+    "da": "Nyhedsbrev",
+    "de": "Newsletter",
+    "en": "Newsletter",
+    "es": "Boletín",
+    "fi": "Uutiskirje",
+    "fr": "Newsletter",
+    "it": "Newsletter",
+    "ja": "ニュースレター",
+    "ko": "뉴스레터",
+    "nb": "Nyhetsbrev",
+    "nl": "Nieuwsbrief",
+    "pl": "Newsletter",
+    "pt-BR": "Newsletter",
+    "pt-PT": "Newsletter",
+    "sv": "Nyhetsbrev",
+    "th": "จดหมายข่าว",
+    "tr": "Bülten",
+    "vi": "Bản tin",
+    "zh-CN": "新闻通讯",
+    "zh-TW": "電子報"
+  },
+  "class": "index-section--flush",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Promotions, new products and sales. Directly to your inbox."
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "cs": "Novinky",
+        "da": "Nyhedsbrev",
+        "de": "Newsletter",
+        "en": "Newsletter",
+        "es": "Boletín",
+        "fi": "Uutiskirje",
+        "fr": "Newsletter",
+        "it": "Newsletter",
+        "ja": "ニュースレター",
+        "ko": "뉴스레터",
+        "nb": "Nyhetsbrev",
+        "nl": "Nieuwsbrief",
+        "pl": "Newsletter",
+        "pt-BR": "Newsletter",
+        "pt-PT": "Newsletter",
+        "sv": "Nyhetsbrev",
+        "th": "จดหมายข่าว",
+        "tr": "Bülten",
+        "vi": "Bản tin",
+        "zh-CN": "新闻通讯",
+        "zh-TW": "電子報"
+      },
+      "category": "Ym Custom Feature"
+    }
+  ]
+}
+{% endschema %}

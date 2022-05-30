@@ -1,0 +1,135 @@
+<div class="page-width">
+  {% if section.settings.title != blank %}
+    <div class="section-header text-center">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+  {% endif %}
+
+
+    {% if section.blocks.size > 0 %}
+
+    {%- for block in section.blocks -%}
+    
+      <div class="accordion-wrapper">
+        {% if block.settings.faq_title != blank %}
+        <div class="acc-head p-3">
+         {{ block.settings.faq_title }}
+        </div>
+        {% endif %}
+        <div class="acc-body">
+          {% if block.settings.faq_content != blank %}
+          <div class="rte-setting rte">{{ block.settings.faq_content }}</div>
+        {% endif %}
+        </div>
+      </div>
+      {%- endfor -%}
+    {% endif %}
+
+</div>
+
+
+{% if section.blocks.size == 0 %}
+{% include 'no-blocks' %}
+{% endif %}
+
+<div class="vector-shape"></div>
+<div class="vector-shape-2"></div>
+
+
+{% schema %}
+{
+  "name": "Faq",
+  "class": "faq-wrapper",
+  "max_blocks": 9,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "cs": "Nadpis",
+        "da": "Overskrift",
+        "de": "Titel",
+        "en": "Heading",
+        "es": "Título",
+        "fi": "Otsake",
+        "fr": "En-tête",
+        "it": "Heading",
+        "ja": "見出し",
+        "ko": "제목",
+        "nb": "Overskrift",
+        "nl": "Kop",
+        "pl": "Nagłówek",
+        "pt-BR": "Título",
+        "pt-PT": "Título",
+        "sv": "Rubrik",
+        "th": "ส่วนหัว",
+        "tr": "Başlık",
+        "vi": "Tiêu đề",
+        "zh-CN": "标题",
+        "zh-TW": "標題"
+      },
+      "default": "FAQ Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "FAQ",
+      "name": "Faq Item",
+      "settings": [
+
+       {
+        "type": "text",
+        "id": "faq_title",
+        "label": "FAQ Title",
+        "default": "FAQ Title"
+        },
+        {
+          "type": "richtext",
+          "id": "faq_content",
+          "label": {
+            "cs": "Text",
+            "da": "Tekst",
+            "de": "Text",
+            "en": "Text",
+            "es": "Texto",
+            "fi": "Teksti",
+            "fr": "Texte",
+            "it": "Testo",
+            "ja": "テキスト",
+            "ko": "텍스트",
+            "nb": "Tekst",
+            "nl": "Tekst",
+            "pl": "Tekst",
+            "pt-BR": "Texto",
+            "pt-PT": "Texto",
+            "sv": "Text",
+            "th": "ข้อความ",
+            "tr": "Metin",
+            "vi": "Văn bản",
+            "zh-CN": "文本",
+            "zh-TW": "文字"
+          },
+          "default": "<p>We know, sometimes you have these tools. Because you’re a foodie, a maker, a mover and a shaker. A bonafide food mechanic</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "category": "Ym Custom Feature",
+      "blocks": [
+        {
+          "type": "FAQ"
+        },
+        {
+          "type": "FAQ"
+        },
+        {
+          "type": "FAQ"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

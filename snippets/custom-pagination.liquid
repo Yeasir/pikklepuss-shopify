@@ -1,0 +1,124 @@
+<nav role="navigation">
+    <ol class="pagination">
+      {%- if paginate.previous-%}
+        <li class="prev">
+          <a href="{{ paginate.previous.url }}">
+            <span>
+              {% include 'prev-arrow' %}
+            </span>
+          </a>
+        </li>
+      {%- else -%}
+        <li class="prev disabled">
+          <span>
+            {% include 'prev-arrow' %}
+          </span>
+        </li>
+      {%- endif -%}
+
+      {%- for part in paginate.parts -%}
+        {%- if part.is_link -%}
+          <li>
+            <a href="{{ part.url }}">
+              <span class="visuallyhidden">page</span> {{ part.title }}
+            </a>
+          </li>
+        {%- else -%}
+          {%- if part.title == paginate.current_page -%}
+            <li class="active" aria-current="page">
+              <span class="visuallyhidden">page</span> {{ part.title }}
+            </li>
+          {%- else -%}
+            <li>
+              <span class="visuallyhidden">page</span> {{ part.title }}
+            </li>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if paginate.next -%}
+        <li  class="next">
+          <a href="{{ paginate.next.url }}">
+      
+            <span>
+              {% include 'next-arrow' %}
+            </span>
+          </a>
+        </li>
+      {%- else -%}
+        <li class="next disabled">
+          <span>
+            {% include 'next-arrow' %}
+          </span>
+        </li>
+      {%- endif -%}
+    </ol>
+  </nav>
+
+  <style>
+    .visuallyhidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+      white-space: nowrap;
+    }
+      
+    .pagination li {
+      display: inline; 
+      margin: 0 15px;
+    }
+    .pagination li{
+      font-size: 22px;
+      font-family: "Sofia Pro";
+      color: #26547c;
+      font-weight: bold;
+      line-height: 1.273;
+      text-align: center;
+    }
+    .pagination li a{
+      font-size: 22px;
+      font-family: "Sofia Pro";
+      color: #26547c;
+      font-weight: bold;
+      line-height: 1.273;
+      text-align: center;
+    }
+    .pagination li.active{
+      color:#34b233;
+    }
+    .pagination li.next span,   .pagination li.prev span{
+      display: inline-block;
+      width: 50px;
+      height:50px; 
+      border-radius: 50%;
+      border: 1px solid #ffd166;
+      line-height: 50px;
+    }
+    .pagination li.next span:hover,   .pagination li.prev span:hover{
+      background-color:#34b233;
+      border: 1px solid #34b233;
+    }
+
+    .pagination li.next.disabled span:hover,   .pagination li.prev.disabled span:hover,  .pagination li.next.disabled span, .pagination li.prev.disabled span{
+      background-color:transparent;
+      border: 1px solid #ffd166;
+      opacity: 0.5;
+    }
+    .pagination li.next span{
+      text-align: left;
+    }
+    .pagination li.next{
+      margin-left: 45px;
+    }
+    .pagination li.prev {
+      margin-right: 45px;
+    }
+    .pagination li.prev span{
+      text-align: right;
+    }
+    </style>

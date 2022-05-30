@@ -1,0 +1,57 @@
+<style>
+
+
+    {% if section.settings.bg_image != blank %}
+      .shop-bottom-shape{
+        background-image: url({{ section.settings.bg_image | image_url }});
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        height: {{ section.settings.height }}px;
+        margin-bottom: -190px;
+    }
+  
+      {% endif %}
+      @media only screen and (max-width: 1024px) {
+        .shop-bottom-shape{
+          height: 250px;
+        }
+
+      }
+
+  
+    
+    </style>
+
+<section class="shop-bottom-shape"></section>
+
+
+{% schema %}
+{
+  "name": "Product Bottom Shape",
+  "settings": [
+  {
+    "type": "range",
+    "id": "height",
+    "label": "Shape Height",
+    "min": 125,
+    "max": 625,
+    "step": 5,
+    "unit": "px",
+    "default": 490
+  },
+  {
+    "type": "image_picker",
+    "id": "bg_image",
+    "label": "Backgroud Image"
+  }
+  ],
+  "presets": [
+    {
+      "name": "Product Bottom Shape",
+      "category": "Ym Custom Feature"
+    }
+  ]
+}
+{% endschema %}
+
